@@ -1,0 +1,311 @@
+.container-fluid {
+    background-color: #ffffff;
+    height: 90px;
+}
+
+.icon {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.form-control {
+
+    width: 300px;
+    max-width: 700px;
+
+}
+
+.navbar {
+    margin-top: -5px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    height: 120px;
+}
+.navbar-brand{
+    display: flex;
+    margin-top: -5px;
+}
+.navbar-brand p{
+    font-family: verdana;
+    margin-top: -10px;
+    padding-top: 28px;
+}
+
+.search {
+    flex-grow: 1;
+    padding-top: 50px;
+    margin: 0 auto; /* Menengahkan secara horizontal */
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: #949494;
+    padding: 8px 16px;
+    border-radius: 46px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+    width: 340px;
+    height: 45px;
+    margin-top: -19px;
+    margin: 0 auto; /* Menengahkan secara horizontal */
+}
+.fa-magnifying-glass{
+    color: white;
+}
+.search-box .search-icon{
+    color: white;
+    font-size: 1.18rem;
+    color: #000000;
+}
+.search-box .search-input{
+    transition: .5s;
+}
+
+.search-input .input{
+    border: none;
+    outline: none;
+    background-color: unset;
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+    margin-left: 5px; 
+}
+.profilegbr{
+    height: 110px;
+    width:110px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.usr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    text-align: center;
+}
+.foto .d-gbr {
+    border-top-right-radius: 20px;
+     border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+     border-bottom-left-radius: 20px;
+}
+.card-foot{
+    position: absolute;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, .1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 20px;
+    margin-top: -32px;
+    margin-left: 0px;
+    height: 77px;
+    width: 268px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.card{
+    border-top-right-radius: 20px;
+     border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+     border-bottom-left-radius: 20px;
+    height: 287px;
+    width: 265px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnpicture{
+    outline: none;
+    border:none;
+    background: transparent;
+}
+.isi {
+    position: static;
+    margin-top: 40px;
+    display: flex;
+}
+.nmalbum{
+    margin: 0 auto;
+    width:50%;
+}
+.isi img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: -3px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.foto {
+  position: relative; /* Membuat elemen .foto sebagai referensi posisi */
+  display: inline-block; /* Memastikan elemen .foto tidak mengambil lebar maksimum */
+}
+
+
+.formcontainer {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Warna hitam dengan opacity 0.7 */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); /* Efek blur */
+    z-index: 1000; /* Z-index harus lebih tinggi daripada blurBackground */
+    width: 330px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .formcontainer input{
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 15px; 
+  }
+  .formcontainer .judul{
+    color: #ffffff;
+  }
+  .formcontainer label{
+    color: #ffffff;
+  }
+  .formcontainer .btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+  }
+  .formcontainer .botn{
+    outline: none;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    width: 70px;
+  }
+  .btnpicture1 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    outline: none;
+    border:none;
+    background-color: transparent;
+    color: white;
+}
+  .blurBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Warna overlay untuk blur */
+    z-index: 900; /* Z-index harus lebih tinggi daripada form */
+    display: none; /* Awalnya disembunyikan */
+  }
+
+  .fa-pen {
+  position: absolute; /* Mengatur posisi ikon hati */
+  font-size: 15px;
+  bottom: 240px; /* Jarak dari atas */
+  right: 15px; /* Jarak dari kanan */
+  background-color: rgba(255, 255, 255, 0.5); /* Background putih transparan */
+  padding: 5px; /* Padding untuk memberikan ruang di sekitar ikon */
+  border-radius: 50%; /* Membuat ikon hati menjadi lingkaran */
+  color: black;
+  transition: color 0.3s;
+}
+.btnpen{
+outline: none;
+border:none;
+background-color: transparent;
+}
+.footer{
+    position: relative;
+    margin-top: 10%;
+}
+.footer{
+    background-color: #bdbebd;
+    width: 100%;
+    box-sizing: border-box;
+    height: 90px;
+}
+.lgfooter{
+    display: flex;
+}
+.lgfooter img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.lgfooter p{
+    font-size: x-large;
+    color: #ffffff;
+    margin-left: 10px;
+     font-family: verdana;
+    margin-top: -10px;
+    padding-top: 37px;
+}
+.footer .ntah{
+    align-items: center;
+   text-align: center;
+   margin-top: 0px;
+   margin-right: -4px;
+   font-size: small;
+}
+.footer img{
+    margin-top: 15px;
+
+}
+.kout{
+     text-align: center;
+     margin-top: -10px;
+     font-family: impact;
+     font-style: italic;
+     color: #ffffff;
+     text-shadow: 1px 1px 1px black;
+     font-size: large;
+}
+.ayogabung{
+    font-family: vendara;
+    font-size: large;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+}
+.sat {
+    font-family: Impact;
+    font-size: x-large;
+    color: #ffffff;
+    margin-left: 120px;
+}
+.my-box {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            background-color: #e9e9e9;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: -15px;   
+            display: flex;
+             justify-content: center;
+    align-items:center; 
+
+}
+.my-box1{
+    display: none;
+}

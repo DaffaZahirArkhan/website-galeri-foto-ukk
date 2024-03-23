@@ -1,0 +1,694 @@
+body {
+    height: 2000px;  
+       }
+
+/* Login */
+.judul {
+    margin-top: 80px;
+    margin-left: 0px;
+}
+
+.gb1 {
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 120px;
+}
+
+.form {
+    /* background: #e9e9e9; */
+    margin-top: 30px;
+    background: transparent;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .1);
+    width: 500px;
+    height: 350px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+.form label {
+    margin-left: 55px;
+    margin-top: 10px;
+
+}
+
+.form input {
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.form button {
+    border-radius: 13px;
+    margin-left: 200px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form p {
+    margin-left: 130px;
+    margin-top: 5px;
+}
+
+.kembali {
+    margin-top: 10px;
+    margin-bottom: -60px;
+}
+
+/* Regitster */
+.judul1 {
+    margin-top: 80px;
+    margin-left: -5px;
+}
+
+.gb2 {
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.form1 {
+    /* background: #e9e9e9; */
+   margin-top: 20px;
+    background: transparent;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .1);
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form1 label {
+    margin-top: 10px;
+    display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+
+.form1 input {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form1 button {
+    border-radius: 13px;
+/*    margin-left: 30px*/;
+    margin-top: 0px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.form1 p {
+    margin-left: 110px;
+    margin-top: 5px;
+}
+
+/* home */
+/* navbar */
+.container-fluid {
+    background-color: #ffffff;
+    height: 90px;
+}
+
+.icon {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.form-control {
+
+    width: 300px;
+    max-width: 700px;
+
+}
+
+.navbar {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    height: 120px;
+}
+.navbar-brand{
+    display: flex;
+    margin-top: -20px;
+}
+.navbar-brand p{
+    font-family: verdana;
+    margin-top: -10px;
+    padding-top: 28px;
+}
+.search{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    background-color: #949494;
+    padding: 8px 16px;
+    border-radius: 46px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+     width: 340px;
+     height: 45px;
+       margin-top: -19px;
+}
+.fa-magnifying-glass{
+    color: white;
+}
+.search-box .search-icon{
+    color: white;
+    font-size: 1.18rem;
+    color: #000000;
+}
+.search-box .search-input{
+    transition: .5s;
+}
+
+.search-input .input{
+    border: none;
+    outline: none;
+    background-color: unset;
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+    margin-left: 5px; 
+}
+.buttonld{
+    display: flex;
+    padding-right: 30px;
+    margin-left: auto;
+      margin-top: -12px;
+}
+/* kategori */
+.carousel slide{}
+.grid .text{
+    text-align: center;
+
+}
+.grid {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .text {
+            font-family: vendara;
+            color: white;
+            font-size: x-large;
+            margin-top: -43px;
+            opacity: 0;
+            transition: transform 0.5s ease, opacity 0.5s ease; /* Properti transisi */
+            pointer-events: none; /* Agar elemen tidak menghalangi event mousemove */
+            position: absolute;
+            top: 105%;
+            left: 50%;
+            transform: translateX(-50%) ;
+        }
+
+        .grid:hover .text{
+            opacity: 1;
+            transform: translateX(-50%) translateY(-50%);
+        }
+
+/*inspirasi*/
+
+.foto .d-gbr {
+    border-top-right-radius: 20px;
+     border-top-left-radius: 20px;
+}
+
+.card-foot{
+    position: absolute;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, .1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 20px;
+    margin-top: -32px;
+    margin-left: 0px;
+    height: 77px;
+    width: 268px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.isi {
+    position: static;
+    margin-top: 40px;
+    display: flex;
+}
+
+.isi img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: -3px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.foto {
+  position: relative; /* Membuat elemen .foto sebagai referensi posisi */
+  display: inline-block; /* Memastikan elemen .foto tidak mengambil lebar maksimum */
+}
+
+.fa-heart {
+  position: absolute; /* Mengatur posisi ikon hati */
+  font-size: 25px;
+  top: 10px; /* Jarak dari atas */
+  right: 10px; /* Jarak dari kanan */
+  background-color: rgba(255, 255, 255, 0.5); /* Background putih transparan */
+  padding: 5px; /* Padding untuk memberikan ruang di sekitar ikon */
+  border-radius: 50%; /* Membuat ikon hati menjadi lingkaran */
+  color: black;
+  transition: color 0.3s;
+}
+.fa-heart:hover {
+  cursor: pointer;
+}
+
+.fa-heart.active {
+  color: red; /* Warna merah saat tombol aktif */
+}
+.isi .fa-eye{
+    margin-left:19px; 
+    margin-top: 14px;
+    margin-right: 5px; 
+}
+.isi .fa-comment{
+   color: black;
+   margin-left: -20px;
+   margin-right: -5px;
+    margin-top: 14px;
+}
+.isi .jlhv{
+    margin-top: 2px;
+    margin-right: 30px;
+    font-size: medium;
+}
+.isi .jlhk{
+    margin-top: 2px;
+    margin-left: 5px;
+     font-size: medium;
+}
+/*
+footer*/
+.footer{
+    position: relative;
+    margin-top: 10%;
+}
+.footer{
+    background-color: #bdbebd;
+    width: 100%;
+    box-sizing: border-box;
+    height: 90px;
+}
+.lgfooter{
+    display: flex;
+}
+.lgfooter img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.lgfooter p{
+    font-size: x-large;
+    color: #ffffff;
+    margin-left: 10px;
+     font-family: verdana;
+    margin-top: -10px;
+    padding-top: 37px;
+}
+.footer .ntah{
+    align-items: center;
+   text-align: center;
+   margin-top: 0px;
+   margin-right: -4px;
+   font-size: small;
+}
+.footer img{
+    margin-top: 15px;
+
+}
+.kout{
+     text-align: center;
+     margin-top: -10px;
+     font-family: impact;
+     font-style: italic;
+     color: #ffffff;
+     text-shadow: 1px 1px 1px black;
+     font-size: large;
+}
+.ayogabung{
+    font-family: vendara;
+    font-size: large;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+}
+.sat {
+    font-family: Impact;
+    font-size: x-large;
+    color: #ffffff;
+    margin-left: 120px;
+}
+.my-box {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            background-color: #e9e9e9;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: -15px;   
+            display: flex;
+             justify-content: center;
+    align-items:center; 
+
+}
+.my-box1{
+    display: none;
+}
+
+/* responsive */
+/* login */
+
+@media only screen and (max-width: 600px) {
+
+    .gb1 {
+
+        display: none;
+
+    }
+
+    .judul {
+        margin-top: 30px;
+        margin-right: 15px;
+        font-size: larger;
+    }
+
+
+    .form {
+        margin-top: 80px;
+        margin-left: -2px;
+        width: 320px;
+        height: auto;
+    }
+
+    .form label {
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+    .form input {
+
+        width: 270px;
+
+        margin-left: 20px;
+
+    }
+
+    .form button {
+        margin-left: 105px;
+        margin-top: 10px;
+
+    }
+
+    .form p {
+        margin-top: -1px;
+        margin-right: 0;
+        margin-left: 38px;
+    }
+
+    .bom {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* register */
+@media only screen and (max-width: 600px) {
+
+    .gb2 {
+
+        display: none;
+
+    }
+
+    .judul1 {
+        margin-top: 30px;
+        margin-left: 15px;
+        font-size: larger;
+    }
+
+
+    .form1 {
+        margin-top: 80px;
+        margin-left: -2px;
+        width: 320px;
+        height: auto;
+    }
+
+    .form1 label {
+        margin-right: 180px;
+        margin-top: 20px;
+    }
+
+    .form1 .form-label1 {
+        margin-right: 300px;
+    }
+
+    .form1 input {
+
+        width: 270px;
+
+        margin-left: 20px;
+
+    }
+
+    .form1 button {
+        margin-top: 5px;
+        margin-bottom: 20px;
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+
+    .bum {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* home */
+@media only screen and (max-width: 600px) {
+    /*navbar*/
+    .navbar{
+        display: flex;
+
+    }
+    .navbar-brand {
+        padding-top: -70px;
+       }
+       .navbar-brand .d-inline-block{
+        margin-left: -8px;
+        margin-right: -5px;
+        width: 45px;
+        height: 45px;
+        margin-top: -15px;
+       }
+.navbar-brand p{
+    font-size: medium;
+    margin-top: -35px;
+}
+    .search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
+       }
+
+     .search-box{
+        width: 240px;
+        height: 30px;    
+        position: absolute; 
+       margin-right: 55px;
+       margin-left: -55px;
+        align-items: center;
+        display: flex;
+     }
+     .search-icon .fa-magnifying-glass{
+        font-size: 15px;
+        margin-left: -5px;
+       margin-bottom: 6px;
+     }
+     .search-input .input{
+        font-size: 13px;
+     }
+    .buttonld { 
+       float: left;
+       position: absolute;
+       right: -20px;
+       top: 0;
+       margin-top: 25px;
+       }
+    .buttonld .btn{
+       font-size: 8px;
+       justify-content: space-between;
+    }
+/*navbar*/
+
+/*kategori*/
+.jhome h2{
+    font-size: large;
+    margin-top: -25px;
+}
+.grid{
+    margin-top: -20px;
+}
+.grid .d-gbr{
+    margin-bottom: 15px;
+}
+.grid .text{
+    text-align: center;
+    font-size: 15px;
+    opacity: 1;
+    top: =20px;  
+}
+.grid:hover .text{
+    transform: none;
+}
+    .row-cols-sm-2 .col{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+/*inspirasi*/
+.row-cols-sm-1 .col{
+        flex: 1 0 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+.card-foot{
+    width: 289px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -30px;
+    margin-right: -0.5px;
+    margin-left: 0.5px;
+    margin-bottom: -10PX;
+}
+.isi img{
+    height: 20px;
+    width: 20px;
+    margin-top: -15px;
+}
+.isi p{
+    font-size:13px; 
+    margin-top: -4px;
+}
+.isi .fa-eye{
+    font-size: 14px;
+       padding-left: 70px;
+       padding-top: -7px;
+       margin-top: 8px;
+       
+}
+.isi .jlhv{
+    font-size: 11px;
+    margin-top: 0px;
+}
+.isi .fa-comment{
+    font-size: 14px;
+    margin-right: -10px;
+    margin-top: 8px;
+    display: block;
+       border-bottom:none;
+       text-decoration: none;
+}
+.isi .jlhk{
+    font-size: 11px;
+    margin-top: 0px;
+    margin-left: 4px; 
+}
+
+/*footer*/
+.footer{
+    position: relative;   
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+.lgfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    margin-right: -30px;
+    margin-left: 30px;
+}
+.lgfooter p{
+  color: black;
+  margin-right: 25.5px;
+  margin-left: -25.5px;
+  margin-bottom: 10px;
+}
+.lgfooter img{
+height: 70px;
+width: 70px;
+margin-top: 20px;
+margin-bottom: -50px;
+}
+.kout{
+    color: black;
+    text-shadow: none;
+}
+.ayogabung{
+    color: #000000;
+    margin-left: -20px;
+}
+.ikon{
+    justify-content: center;
+    display: flex;
+}
+.my-box1{
+    display: inline;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.col-lg-4 .sat{
+    display: none;
+} .my-box{
+    display: none;
+}
+}
